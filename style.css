@@ -12,4 +12,14 @@
     transition: .2s linear;
 }
 
-/* 08.48 */
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax($val,1fr));
+    grid-gap: 1.5rem;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding: 5rem;
+}
