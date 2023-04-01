@@ -25,22 +25,30 @@ html
     scroll-padding: 5rem;
     
 
- &::-webkit-scrollbar
+ /* &::-webkit-scrollbar
      {
      width: 1rem;
-    }
- &::-webkit-scrollbar-track
+    } */
+ /* &::-webkit-scrollbar-track
      {
         background: #fff;
-      }
+      } */
 
- &::-webkit-scrollbar-thumb
+ /* &::-webkit-scrollbar-thumb
       {
         background: #000;
-      }
+      } */
      
 }
-
+html:-webkit-scrollbar-track{
+    background: #fff;
+}
+html:-webkit-scrollbar{
+    width: 1rem;
+}
+html :-webkit-scrollbar-thumb{
+    background: #000;
+}
 .header{
     position: fixed;
     top: 0;left: 0;right: 0;
@@ -139,6 +147,7 @@ html
     align-items: center;
     justify-content: center;
     
+      
    
     
    
