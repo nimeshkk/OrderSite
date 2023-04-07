@@ -49,6 +49,10 @@ html:-webkit-scrollbar{
 html :-webkit-scrollbar-thumb{
     background: #000;
 }
+
+section{
+    padding: 5rem 9%;
+}
 .header{
     position: fixed;
     top: 0;left: 0;right: 0;
@@ -63,9 +67,18 @@ html :-webkit-scrollbar-thumb{
 .logo1{
    margin-right: auto;
     font-size: 2.5rem;
-    color: #0e5334;
+    color: #000000;
     font-weight: bolder;
 
+}
+
+.header{
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  
+  background-color: #f8f3f386;
+    
 }
 
 .navbar a{
@@ -122,7 +135,9 @@ html :-webkit-scrollbar-thumb{
         padding: 2rem;
     }
    
-
+   section{
+    padding: 3rem 2rem;
+   }
    
 }
 @media (max-width:990px){
@@ -146,7 +161,8 @@ html :-webkit-scrollbar-thumb{
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
+       
    
    }
 
@@ -290,5 +306,16 @@ html :-webkit-scrollbar-thumb{
     right: 7%;
   }
 
+.home{
+    padding: 0;
 
+ 
+}
+.home .box{
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+  }
  
