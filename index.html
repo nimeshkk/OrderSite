@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css">
     <script src="script.js"></script>
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 </head>
 <body>
 
@@ -77,11 +79,11 @@
   
    <!-- home section -->
    <section class="home" id="home">
-    <div class="home-slider">
-      <div class="wrapper">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
 
 
-        <div class="slide">
+        <div class="swiper-slide">
           <div class="box" style="background: url(img/pexels-ray-piedra-1456737.jpg) no-repeat;">
             <div class="content">
               
@@ -93,7 +95,7 @@
           </div>
         </div>
 
-        <div class="slide">
+        <div class="swiper-slide">
           <div class="box-second" style="background: url(img/fashion-shoes-sneakers.jpg) no-repeat;">
             <div class="content">
               
@@ -106,6 +108,8 @@
         </div>
 
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </section>
     
@@ -117,5 +121,7 @@
 
 
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
 </body>
 </html>

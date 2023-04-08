@@ -39,3 +39,11 @@ function openNav() {
       }
     }
   }
+
+  var swiper = new Swiper(".swiper mySwiper", {
+    
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
