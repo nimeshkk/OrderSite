@@ -316,19 +316,21 @@ section{
     display:flex;
     align-items: center;
     background-size:cover !important;
+    /* background-size:100% !important; */
     background-position: center !important;
     justify-content: flex-start;
-    padding: 2rem 8%;
+    padding: 1rem ;
   }
  
   .home .box-second{
     min-height: 100vh;
     display:flex;
     align-items: center;
-    background-size: cover !important;
+    background-size:cover !important;
+    /* background-size: 100% !important; */
     background-position: center !important;
     justify-content: flex-end;
-    padding: 2rem 8%;
+    padding: 1rem ;
   }
 
  .box{
@@ -411,7 +413,7 @@ section{
     text-align:justify;
   }
   .btn{
-    margin-top: 1rem;
+    margin-top: 0.1rem;
     display: inline-block;
     border:solid;
     color: #000;
