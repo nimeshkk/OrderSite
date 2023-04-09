@@ -144,9 +144,26 @@ section{
     html{
         font-size: 60%;
     }
+    .home .box{
+      justify-content: center;
+      background-position: right;
+
+     
+    }
+
+    .home .box-second{
+      justify-content: center;
+      background-position: left;
+    }
+ 
+    
+    
+   
 }
 @media (max-width:750px){
-   
+  
+  
+
     #menu-btn{
         display: inline-block;
     }
@@ -429,4 +446,42 @@ section{
   }
 }
 
+/* aboutus */
+.about{
+  background: #6d6969;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  
+  
+}
+.about image{
+  flex: 2 3 42rem;
+
+}
+.about{
+.image img{
+  width: 50%;
+}
+.image img{
+  padding-top: 2%;
+  width: 67%;
+}
+
+.content{
+  flex: 1 1 42rem;
+
+  .h3{
+    font-size: 3rem;
+    color: #097e11;
+  }
+  .h3{
+    font-size: 3rem;
+    color: #097e11;
+  }
+}
+
+}
 
