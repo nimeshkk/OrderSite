@@ -53,3 +53,34 @@ function openNav() {
     },
   });
 }
+
+function next2(){
+  var swiper = new Swiper(".product-slider", {
+    loop:true,
+    grabcurCursor:true,
+    spaceBetween: 20,
+
+    // pagination: {
+    //   el: ".swiper-pagination",
+    //   type: "progressbar",
+    // },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+       
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+    },
+  });
+}

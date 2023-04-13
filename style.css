@@ -463,7 +463,7 @@ section{
   
   
 }
-.about about-image{
+.about .about-image{
   flex: 2 3 42rem;
 
 }
@@ -511,3 +511,75 @@ section{
   padding: 1rem 0;
   line-height: 2;
 }
+
+
+.shop .slide{
+  width: 40%;
+  /* border: solid; */
+}
+
+
+.shop-image{
+ position: relative;
+ overflow: hidden;
+ height: auto;
+ width: 35rem;
+
+
+ 
+}
+
+.shop-image img{
+  
+    height: 100%;
+    width:100%;
+    object-fit:cover;
+   
+}
+.shop-image img:hover{
+  transform: scale(1.05,1.05);
+  
+}
+.shop-content{
+ padding: 1rem 0;
+ text-align: center;
+
+ .h3{
+  font-size: 2rem;
+  color:black;
+ }
+ .h3{
+  font-size: 2rem;
+  color:black;
+ }
+ .price{
+  padding: 1rem 0;
+  font-size: 2.5rem;
+  color: #097e11;
+ }
+ 
+
+}
+
+.shop-icons{
+  width: 100%;
+  position: absolute;
+  bottom: 2rem;left:0;
+  text-align: center;
+  z-index: 10;
+  transform: translateY(7rem);
+ }
+ .shop-icons a{
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  background: #000;
+  color: #ffffff;
+ }
+ .shop-icons a:hover{
+  background: #097e11;
+ }
+ .slide:hover .shop-image .shop-icons{
+  transform: translateY(0);
+ }
