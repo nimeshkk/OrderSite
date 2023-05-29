@@ -518,8 +518,8 @@ section{
 
 .shop-image img{
   
-    height: 100%;
-    width:100%;
+    height: 70%;
+    width:70%;
     object-fit:cover;
    
 }
@@ -528,7 +528,7 @@ section{
   
 }
 .shop-content{
- padding: 1rem 0;
+ padding: 0.7rem 0;
  text-align: center;
 
  .h3{
@@ -557,8 +557,8 @@ section{
   transform: translateY(7rem);
  }
  .shop-icons a{
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
   line-height: 4.5rem;
   font-size: 1.7rem;
   background: #000;
