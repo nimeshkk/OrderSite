@@ -57,6 +57,7 @@ function openNav() {
 function next2(){
   var swiper = new Swiper(".product-slider", {
     loop:false,
+    
     grabcurCursor:true,
     spaceBetween: 20,
 
@@ -94,3 +95,4 @@ function next2(){
     },
   });
 }
+
